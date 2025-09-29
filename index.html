@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Lovers Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Book Lovers Club!</h1>
+  </header>
+
+  <main>
+    <div class="panels-row">
+      <section>
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">💰 Total: ₱0</p>
+      </section>
+      <section>
+        <h2>Wishlist</h2>
+        <ul id="wishlist-items"></ul>
+      </section>
+    </div>
+    <section>
+      <h2>Available Books</h2>
+      <div id="book-lists" class="genre-groups">
+        <div class="genre-group">
+          <h3>Fiction</h3>
+          <ul id="book-list-fiction"></ul>
+        </div>
+        <div class="genre-group">
+          <h3>Comic</h3>
+          <ul id="book-list-comic"></ul>
+        </div>
+        <div class="genre-group">
+          <h3>Educational</h3>
+          <ul id="book-list-educational"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Connect MainBooks.js -->
+  <script type="module" src="./MainBooks.js"></script>
+</body>
+</html>
